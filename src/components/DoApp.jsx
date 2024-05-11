@@ -2,8 +2,8 @@ import { Box, Container, VStack, Text, Input, Button, List, ListItem, ListIcon, 
 import { useState } from "react";
 import { FaTrash, FaCheckCircle } from "react-icons/fa";
 
-// TodoApp component for managing and displaying tasks
-const TodoApp = () => {
+// DoApp component for managing and displaying tasks
+const DoApp = () => {
   // State Management
   const [tasks, setTasks] = useState([]);
   const [taskInput, setTaskInput] = useState("");
@@ -65,4 +65,4 @@ const TodoApp = () => {
   );
 };
 
-export default TodoApp;
+export default DoApp;
