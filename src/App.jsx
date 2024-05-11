@@ -1,11 +1,11 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import TodoApp from "./components/TodoApp.jsx";
+import DoApp from "./components/DoApp.jsx";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<TodoApp />} />
+        <Route exact path="/" element={<DoApp />} />
       </Routes>
     </Router>
   );
